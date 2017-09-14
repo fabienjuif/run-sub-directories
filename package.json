@@ -1,0 +1,18 @@
+{
+  "name": "run-sub-directories",
+  "version": "0.4.0",
+  "description": "run a command into subdirectories",
+  "main": "index.js",
+  "repository": "https://github.com/fabienjuif/run-sub-directories",
+  "author": "Fabien JUIF <fabien.juif@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "run-sub-directories": "./index.js"
+  },
+  "subdirectories": [
+    "test"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  }
+}
